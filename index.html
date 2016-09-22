@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>HTML Template</title>
+    <meta charset="utf8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/test.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+</head>
+<body>
+    <!-- Fixed Navbar, collapsable on mobile -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">    
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle Navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Site Name</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse navbar-right" aria-expanded="false" style="height: 1px;">
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                    <!-- Dropdown Menu -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            More <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#">Item</a>
+                            </li>
+                            <li>
+                                <a href="#">Another Item</a>
+                            </li>
+                            <li role="separator" class="divider"></li>
+                            <li class="dropdown-header">Section Header</li>
+                            <li>
+                                <a href="#">Separated Link</a>
+                            </li>
+                            <li>
+                                <a href="#">Separated Link</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Main Content -->
+    <div id="body">
+    <div class="jumbotron" id="banner">
+        <div class="container-fluid">
+            <h1>Heading</h1>
+            <p>Tagline</p>
+            <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn More >></a></p>            
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4">
+                <h2>Column 1</h2>
+                <p  class="lead">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+                <p><a class="btn btn-default" href="#" role="button">Details >></a></p>
+            </div>
+            <div class="col-md-4">
+                <h2>Column 2</h2>
+                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+                <p><a class="btn btn-default" href="#" role="button">Details >></a></p>
+            </div>
+            <div class="col-md-4">
+                <h2>Column 3</h2>
+                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+                <p><a class="btn btn-default" href="#" role="button">Details >></a></p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-5">
+                <h2>Column 4</h2>
+                <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
+            </div>
+            <div class="col-md-7">
+                <h2>Column 5</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse consectetur odio sed nulla fermentum, eu scelerisque ipsum mollis. Praesent ex lorem, imperdiet sed consectetur porta, blandit ut lorem. Aenean tincidunt fringilla justo, et semper libero lacinia sit amet. Praesent vitae sollicitudin dui. Pellentesque efficitur volutpat nisi, quis aliquam augue molestie quis. Maecenas sagittis, nibh sit amet varius viverra, nisi turpis auctor tellus, et lobortis arcu augue at nibh. Cras sit amet nisl nec nulla tincidunt tincidunt. Morbi a orci ut ipsum cursus pellentesque in ac ipsum.</p>
+                <p>Vestibulum purus tellus, tincidunt id purus semper, congue fermentum mi. Fusce varius est elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse potenti. Nam vulputate accumsan condimentum. Aenean faucibus elit vel mauris mollis sagittis eu ac est. Suspendisse potenti.</p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- Fixed Footer -->
+    <footer class="navbar-fixed-bottom navbar-inverse text-center">
+        <p style="color:white;padding-top:10px">&copy; 2016 Company, Inc</p>
+    </footer>   
+</body>
+</html>
